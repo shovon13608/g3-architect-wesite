@@ -6,3 +6,34 @@
   font-weight: 400;
   font-style: normal;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-links{
+    text-decoration: none;
+    font-weight: 500;
+}
+/* dark-02 */
+.text-gray{
+    color: rgba(66, 66, 66, 1);
+}
+/* dark-03 */
+.text-light-gray{
+    color:#727272 ;
+}
+/* backgroud color */
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
