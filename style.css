@@ -9,6 +9,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nav-links{
     display: flex;
@@ -17,10 +18,12 @@
     list-style: none;
     margin-right: 20px;
 }
-.nav-links{
+.nav-link{
     text-decoration: none;
     font-weight: 500;
 }
+/* daek-01 */
+
 /* dark-02 */
 .text-gray{
     color: rgba(66, 66, 66, 1);
@@ -36,4 +39,38 @@
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+/*  Banner related style*/
+.banner-content{
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.banner-tittle{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+.banner-image{
+    width: 100%;
+}
+/* reponsive media quea */
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
 }
